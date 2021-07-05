@@ -1,0 +1,70 @@
+body{
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+    h1{
+    font-size: 30px;
+    }
+a {
+    background-image: linear-gradient(rgb(93, 13, 221), rgb(30, 96, 218));
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 7px;
+    font-weight: 700;
+    margin: 3px;
+}
+
+
+.container {
+    display: flex;
+
+}
+.word{
+    color: white;
+}
+    .half-width{
+        width: 50%;
+        padding-left: 18px;
+       
+    }
+    .top-banner{
+        background-image: url(vector/top-banner.png);
+        background-repeat: no-repeat;
+    }
+ .rong{
+     color: blue;
+ }
+.colorp{
+    color: navy;
+    font-weight: 600;
+}
+.Introduce{
+    background-image: url(vector/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}.box{
+    box-shadow: 10px 20px 40px grey;
+
+    border-left: 4px solid;
+    padding-left: 4px;
+    margin: 3%;
+   width: 40%;
+   border-image: linear-gradient(rgb(4, 248, 216),rgb(35, 1, 253));
+    border-image-slice: 1;
+}
+.box1{
+    box-shadow: 10px 20px 40px grey;
+
+    border-left: 4px solid;
+    padding-left: 4px;
+    margin: 3%;
+   width: 40%;
+   border-image: linear-gradient(rgb(250, 90, 4),rgb(242, 175, 51));
+    border-image-slice: 1;
+}
+footer{
+    text-align: center;
+    color: navy;
+    margin: 4px 4px;
+}
